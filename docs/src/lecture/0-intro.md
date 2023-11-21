@@ -11,6 +11,8 @@ The Linux Shell is a command-line interface (CLI) used in Linux operating system
 - **Terminal:** Open the terminal application from your Linux desktop environment.
 - **Keyboard Shortcut:** Often Ctrl+Alt+T.
 
+![Alt text](./figs/git-bash.png)
+
 ### Accessing the Shell on UNIX (+maxOS)
 - **Git Bash:** Has most of the common tools included.
 - Other options: PowerShell, WSL, ...
