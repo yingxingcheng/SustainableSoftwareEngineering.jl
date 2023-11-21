@@ -19,7 +19,7 @@ In this lecture, we'll explore how to effectively document Julia code. We'll cov
 
 Here's a simple example of how to write a doc string in Julia:
 
-```julia
+````julia
 """
     add(x, y)
 
@@ -39,11 +39,12 @@ Compute the sum of `x` and `y`.
 ```julia
 julia> add(2, 3)
 5
+```
 """
 function add(x::Int, y::Int)
 return x + y
 end
-```
+````
 
 
 This example shows how to document a function's purpose, its arguments, and provide a usage example.
