@@ -1,4 +1,4 @@
-# Julia Project Structure
+# Julia: Project Structure
 
 This lecture focuses on the structure and management of Julia-specific projects. We will cover how to create a project using the Package Manager, the purpose of various directories and files, and best practices for maintaining a Julia project.
 

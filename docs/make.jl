@@ -1,13 +1,15 @@
 push!(LOAD_PATH,"../src/")
 push!(LOAD_PATH,"src/")
 
-using Documenter, SustainableSoftwareEngineering
+using SustainableSoftwareEngineering
+using Documenter
 
 makedocs(
   sitename="SustainableSoftwareEngineering.jl",
   remotes = nothing,
   pages = Any[
         "Home" => "index.md",
+        "API" => "api.md",
         # add all lecture material
         joinpath.(
           "lecture",

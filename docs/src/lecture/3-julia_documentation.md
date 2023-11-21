@@ -1,4 +1,4 @@
-# Julia Documentation
+# Julia: Documentation
 
 In this lecture, we'll explore how to effectively document Julia code. We'll cover the use of doc strings, introduce Documenter.jl for creating comprehensive documentation, and discuss how to build and host a documentation website.
 

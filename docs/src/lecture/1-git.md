@@ -1,4 +1,4 @@
-# Introduction to Git
+# Version Control: Introduction to Git
 
 ## What is Git?
 
@@ -37,7 +37,4 @@ git config --global user.email "your.email@example.com"
 - https://aeturrell.github.io/coding-for-economists/wrkflow-version-control.html
 - https://merely-useful.tech/py-rse/git-cmdline.html
 
-TODO
-Addd some images to visualize
-Add further reading
 Explain gitignore and make example

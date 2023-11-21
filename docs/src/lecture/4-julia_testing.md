@@ -1,5 +1,5 @@
 
-# Testing in Julia
+# Julia: Testing
 
 This lecture aims to provide a comprehensive guide on testing practices in Julia. We will explore the importance of unit tests, delve into coverage aspects, and discuss the integration of automatic testing using continuous integration (CI) tools.
 
