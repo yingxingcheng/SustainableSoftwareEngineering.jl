@@ -1,21 +1,20 @@
 
 # Julia: Testing
 
-This lecture aims to provide a comprehensive guide on testing practices in Julia. We will explore the importance of unit tests, delve into coverage aspects, and discuss the integration of automatic testing using continuous integration (CI) tools.
+
 
 ## Importance of Testing
 
-- Why testing is crucial in software development.
+- Why testing is crucial in software development: Have working version in Git, document intended behavior of functions
 - Types of tests: Unit tests, integration tests, etc.
 
 ## Unit Tests in Julia
 
-- Overview of unit testing in Julia.
 - Using the `Test` standard library.
 
 ### Writing Unit Tests
 
-- Basic structure of a unit test.
+- Basic structure of a unit test: Valid Julia code with macro annotations (`@`)
 - Assertions: `@test`, `@test_throws`, `@testset`, etc.
 
 ### Example: Unit Test Tutorial
@@ -36,7 +35,7 @@ Create a file named `test_add.jl`:
 
 ```julia
 using Test
-include("add.jl") # Include the file containing the `add` function
+include("add.jl") # Include the file containing the `add` function, or load package
 
 @testset "Addition Tests" begin
     @test add(2, 2) == 4
@@ -65,9 +64,11 @@ Once you have written your tests, it's important to know how to run them to chec
 Alternatively, you can run your tests directly from the command line without entering the REPL:
 
 - Navigate to your project directory.
-- Run `julia --project=@. -e 'using Pkg; Pkg.test()'`.
+- Run `julia --project=@. -e 'using Pkg; Pkg.test()'` (`@.` means to search for a folder with a `Project.toml` btw)
 
 This command will execute all tests defined in your project's `test` directory.
+
+#### An example output
 
 ```julia
 # Addition Tests: Test Failed at XXX/gits/nmh/SustainableSoftwareEngineering.jl/test/test_add.jl:7
@@ -87,21 +88,14 @@ This command will execute all tests defined in your project's `test` directory.
 # Addition Tests |    3     1      4  0.8s
 ```
 
-## Test Coverage
+## Optional
 
-### Understanding Test Coverage
-
-- What is test coverage and why it matters.
-- Tools for measuring test coverage in Julia, e.g., Codecov or Coveralls.
-
-### Optional: Incorporating Coverage into Tests
-
+### Test Coverage
 - Adding coverage metrics to your test suite.
 - Interpreting coverage reports to improve test quality.
 
-## Optional: Automatic Testing with Continuous Integration
-
-- Using CI for automatic testing.
+### Automatic Testing with Continuous Integration
+- Using CI for automatic testing whenever a commit happened in Git
 
 ## Further reading
 

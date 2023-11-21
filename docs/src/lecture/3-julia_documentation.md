@@ -6,15 +6,14 @@ In this lecture, we'll explore how to effectively document Julia code. We'll cov
 
 ### Basics of Doc Strings
 
-- What are doc strings and why they are important
-- Basic syntax for writing doc strings in Julia
+- Docstrings: Documentation that lives side-by-side with the source code
 
 ### Advanced Features in Doc Strings
 
 - Including mathematical expressions using LaTeX syntax
 - Adding code examples within doc strings
 - Documenting function signatures for clarity
-- Best practices for writing informative and clear doc strings
+- It's best practice to write informative and clear doc strings
 
 ## Code Example: Writing a Doc String
 
@@ -56,6 +55,7 @@ Documenter.jl is a tool for producing documentation in Julia. We'll look at how 
 
 - Organizing your documentation structure
 - Writing an index.md file to serve as the entry point
+- See example docu (live)
 
 ## Including Additional Markdown Files
 
@@ -69,19 +69,14 @@ Documenter.jl is a tool for producing documentation in Julia. We'll look at how 
 
 ## Inspecting the resulting index.html
 
-- Generating the HTML documentation locally
-- Tips for inspecting and testing the `index.html` file
+- Generating the HTML documentation locally, and open in local webbrowser
 
-## Building a Documentation Website
+## Optional: Building a Documentation Website
 
-### Hosting Documentation Files
+### Optional: Continuous Integration for Documentation Updates
 
-- Options for hosting the build files to create a publicly accessible documentation website
-- Platforms like GitHub Pages and ReadTheDocs
-
-### Continuous Integration for Documentation Updates
-
-- Setting up CI workflows to automatically update documentation
+- Setting up CI workflows to automatically update documentation and host it
+- Rather needed for big open source projects
 
 ---
 

@@ -5,7 +5,6 @@ This lecture focuses on the structure and management of Julia-specific projects.
 
 ## Creating a Project Using Package Manager
 
-- Steps to create a new Julia project
 - Using the Julia REPL and the Package Manager (`Pkg`)
 - Example command:
 
@@ -20,20 +19,25 @@ pkg> generate MyProject
 
 - The `src` folder: Where the source code lives
 - Structure and naming conventions for source files
+- Can contain multiple files (modules)
 
 ### `docs` Folder
 
-- Purpose of the `docs` folder: Documentation of the project
-- Tools for generating documentation in Julia, e.g., Documenter.jl
+- Where the Documentation of the project lives
+- Tools for generating documentation in Julia, e.g., `Documenter.jl`
 
 ### `examples` Folder
 
 - The `examples` folder: Contains example scripts and notebooks
 - Demonstrating usage and features of the project
 
+### `test` Folder
+
+- The folder containing unit tests in the file `runtests.jl`, explained later
+
 ## README File
 
-- Importance of a `README.md` file in a project
+- Every Git needs a `README.md` file, first starting point when someone opens the repo
 - Key elements to include: project description, installation instructions, usage examples, contact info, ...
 
 ## Project.toml and Manifest.toml
@@ -45,10 +49,9 @@ using Pkg
 Pkg.activate(".")  # or press "]" to go into pkg mode and then type "actiavate" and hit enter
 # Activating project at `~/Desktop/gits/nmh/SustainableSoftwareEngineering.jl`
 ```
-- `Manifest.toml`: Detailed state of the environment for reproducibility
-- Understanding the role of these files in dependency management and version control
+- `Manifest.toml`: Detailed state of the environment for reproducibility (not necessarily needed in Git)
 
-### TOML
+### What, what is TOML?
 TOML (Tom's Obvious, Minimal Language) is a simple, easy-to-read configuration file format. Designed by Tom Preston-Werner in 2013, it aims to be more human-readable and writable than formats like XML or JSON.
 ```toml
 # This is a TOML document

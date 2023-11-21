@@ -8,11 +8,11 @@
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/username/project-name.git
+   git clone git@gitlab.mathematik.uni-stuttgart.de:theiselt/SustainableSoftwareEngineering.jl.git
    ```
 2. **Navigate to the Project Directory:**
    ```
-   cd project-name
+   cd SustainableSoftwareEngineering.jl
    ```
 
 ## Running the Project
