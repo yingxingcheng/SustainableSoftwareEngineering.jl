@@ -10,11 +10,10 @@ The Linux Shell is a command-line interface (CLI) used in Linux operating system
 ### Accessing the Shell on UNIX (+maxOS)
 - **Terminal:** Open the terminal application from your Linux desktop environment.
 
-![Alt text](./figs/git-bash.png)
-
-### Accessing the Shell on UNIX (+maxOS)
+### Accessing the Shell on Windows
 - **Git Bash:** Has most of the common tools included.
 - Other options: PowerShell, WSL, ...
+![Alt text](./figs/git-bash.png)
 
 ### Basic Commands
 1. **`pwd`** - Print Working Directory. Shows the current directory you are in.
