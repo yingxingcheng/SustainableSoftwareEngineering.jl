@@ -2,3 +2,6 @@ name = "SustainableSoftwareEngineering"
 uuid = "21a74dc4-15e8-4c9f-8bf4-d36d52617c8b"
 authors = ["Lambert Theisen <lambert.theisen@rwth-aachen.de>"]
 version = "0.1.0"
+
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"

@@ -39,6 +39,12 @@ pkg> generate MyProject
 ## Project.toml and Manifest.toml
 
 - `Project.toml`: Managing project dependencies and environment settings
+  - Activate ($\Leftrightarrow$ download and use all external packages from `Project.toml`)
+```julia
+using Pkg
+Pkg.activate(".")  # or press "]" to go into pkg mode and then type "actiavate" and hit enter
+# Activating project at `~/Desktop/gits/nmh/SustainableSoftwareEngineering.jl`
+```
 - `Manifest.toml`: Detailed state of the environment for reproducibility
 - Understanding the role of these files in dependency management and version control
 

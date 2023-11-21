@@ -40,3 +40,4 @@ git config --global user.email "your.email@example.com"
 TODO
 Addd some images to visualize
 Add further reading
+Explain gitignore and make example

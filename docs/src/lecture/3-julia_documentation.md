@@ -22,7 +22,7 @@ Here's a simple example of how to write a doc string in Julia:
 
 ```julia
 """
-    myFunction(x, y)
+    add(x, y)
 
 Compute the sum of `x` and `y`.
 
@@ -32,10 +32,10 @@ Compute the sum of `x` and `y`.
 
 # Examples
 ```julia
-julia> myFunction(2, 3)
+julia> add(2, 3)
 5
 """
-function myFunction(x::Int, y::Int)
+function add(x::Int, y::Int)
 return x + y
 end
 ```
@@ -49,7 +49,7 @@ Documenter.jl is a tool for producing documentation in Julia. We'll look at how 
 
 ### Setting Up Documenter.jl
 
-- Installing Documenter.jl
+- Installing Documenter.jl (`import Pkg; Pkg.add("Documenter")`)
 - Basic setup and configuration
 
 ### Creating an Index with Documenter.jl
