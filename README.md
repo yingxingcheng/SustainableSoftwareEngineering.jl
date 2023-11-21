@@ -1,5 +1,8 @@
-# Sustainable Software Engineering
+# <img src="docs/src/assets/logo.jpg" width="36px" /> Sustainable Software Engineering
 
+## Lecture Material
+
+- Located in the [`./docs/src/lecture` Folder](./docs/src/lecture) as Markdown files.
 
 ## Installation
 
