@@ -4,10 +4,14 @@ push!(LOAD_PATH,"src/")
 using Documenter, SustainableSoftwareEngineering
 
 makedocs(
-  sitename="My Documentation",
+  sitename="SustainableSoftwareEngineering.jl",
   remotes = nothing,
   pages = Any[
         "Home" => "index.md",
-        joinpath.("lecture", filter(name->contains(name, ".md"), readdir("docs/src/lecture/")))...
+        # add all lecture material
+        joinpath.(
+          "lecture",
+          filter(name->contains(name, ".md"), readdir("docs/src/lecture/"))
+        )...
     ]
 )
