@@ -69,7 +69,23 @@ Alternatively, you can run your tests directly from the command line without ent
 
 This command will execute all tests defined in your project's `test` directory.
 
-TODO: Add example output.
+```julia
+# Addition Tests: Test Failed at XXX/gits/nmh/SustainableSoftwareEngineering.jl/test/test_add.jl:7
+#   Expression: add(0, 0) == 1
+#    Evaluated: 0 == 1
+#
+# Stacktrace:
+#  [1] macro expansion
+#    @ /usr/local/Cellar/julia/1.9.3/share/julia/stdlib/v1.9/Test/src/Test.jl:478 [inlined]
+#  [2] macro expansion
+#    @ ~/Desktop/gits/nmh/SustainableSoftwareEngineering.jl/test/test_add.jl:7 [inlined]
+#  [3] macro expansion
+#    @ /usr/local/Cellar/julia/1.9.3/share/julia/stdlib/v1.9/Test/src/Test.jl:1498 [inlined]
+#  [4] top-level scope
+#    @ ~/Desktop/gits/nmh/SustainableSoftwareEngineering.jl/test/test_add.jl:5
+# Test Summary:  | Pass  Fail  Total  Time
+# Addition Tests |    3     1      4  0.8s
+```
 
 ## Test Coverage
 

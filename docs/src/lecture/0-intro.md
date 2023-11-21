@@ -114,8 +114,9 @@ Use `>` for block quotes.
 
 ## Integrated Development Environment (IDE)
 - **VS Code**: All-in-one solution, quite good for Julia programming
-TOOD: Insert picture explaning different workspaces
 - Other choices: Vim, Emacs, Atom, Jetbrains, ...
+
+![Alt text](./figs/vscode-julia.png)
 
 ## Further Reading/References
 
