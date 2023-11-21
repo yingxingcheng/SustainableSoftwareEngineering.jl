@@ -20,7 +20,7 @@ Git is a distributed version control system designed to handle everything from s
 - `git push`: Pushes commits to a remote repository.
 - `git pull`: Fetches and merges changes from a remote repository.
 
-![Alt text](./figs//git-remote.png)
+![Alt text](./figs/git-remote.png)
 
 Source: https://merely-useful.tech/py-rse/figures/git-cmdline/git-remote.png
 

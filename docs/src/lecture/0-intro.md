@@ -9,7 +9,6 @@ The Linux Shell is a command-line interface (CLI) used in Linux operating system
 
 ### Accessing the Shell on UNIX (+maxOS)
 - **Terminal:** Open the terminal application from your Linux desktop environment.
-- **Keyboard Shortcut:** Often Ctrl+Alt+T.
 
 ![Alt text](./figs/git-bash.png)
 
@@ -118,6 +117,10 @@ Use `>` for block quotes.
 
 ![Alt text](./figs/vscode-julia.png)
 
+Source: VSCode docu
+
 ## Further Reading/References
 
 - CLick PDF slides in https://thsn.dev/blog/publishing-reproducable-numerics
+- https://aeturrell.github.io/coding-for-economists/wrkflow-version-control.html
+- https://merely-useful.tech/py-rse/git-cmdline.html
