@@ -35,7 +35,7 @@ Create a file named `test_add.jl`:
 
 ```julia
 using Test
-include("add.jl") # Include the file containing the `add` function, or load package
+using SustainableSoftwareEngineering
 
 @testset "Addition Tests" begin
     @test add(2, 2) == 4
@@ -69,6 +69,29 @@ Alternatively, you can run your tests directly from the command line without ent
 This command will execute all tests defined in your project's `test` directory.
 
 #### An example output
+
+The above testing file would yield a successful output:
+```julia
+julia> include("test/runtests.jl")
+# Test Summary:  | Pass  Total  Time
+# Addition Tests |    4      4  0.0s
+```
+
+However, changing the above test file to:
+
+```julia
+using Test
+using SustainableSoftwareEngineering
+
+@testset "Addition Tests" begin
+    @test add(2, 2) == 4
+    @test add(-1, 1) == 0
+    @test add(0, 0) == 1  # changed 🚨
+    @test_throws DomainError add("a", "b")
+end
+```
+
+would result in an error:
 
 ```julia
 # Addition Tests: Test Failed at XXX/gits/nmh/SustainableSoftwareEngineering.jl/test/test_add.jl:7
