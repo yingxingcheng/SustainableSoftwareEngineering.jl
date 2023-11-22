@@ -17,3 +17,8 @@ makedocs(
         )...
     ]
 )
+
+# optionally deploy docs to github pages
+deploydocs(
+    repo = "github.com/lamBOOO/SustainableSoftwareEngineering.jl.git",
+)
