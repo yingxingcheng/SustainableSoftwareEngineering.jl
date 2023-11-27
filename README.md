@@ -8,7 +8,9 @@
 
 1. **Clone the Repository:**
    ```
-   git clone git@gitlab.mathematik.uni-stuttgart.de:theiselt/SustainableSoftwareEngineering.jl.git
+   git clone https://github.com/lamBOOO/SustainableSoftwareEngineering.jl.git
+   # enter username and password, can be avoided by setting up an ssh key, see e.g.
+   # https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
    ```
 2. **Navigate to the Project Directory:**
    ```
