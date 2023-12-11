@@ -15,7 +15,7 @@ makedocs(
           "lecture",
           filter(name->contains(name, ".md"), readdir("docs/src/lecture/"))
         )...
-    ]
+    ],
 )
 
 # optionally deploy docs to github pages
